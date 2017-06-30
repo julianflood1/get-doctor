@@ -1,0 +1,35 @@
+
+.panel {
+  h2 {
+    font-size: 35px;
+  }
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  margin: 10px;
+  img {
+    width: 250px;
+    border-radius: 10px;
+    border: solid black 2px;
+  }
+}
+.showDoctors{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+textarea {
+  text-align: center;
+  font-size: 20px;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  padding: 7px;
+}

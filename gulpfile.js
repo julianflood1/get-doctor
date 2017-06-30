@@ -12,19 +12,19 @@ var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
-var lib = require('bower-files')();
+// var lib = require('bower-files')();
 // USE THIS INSTEAD FOR LIB IF YOU INSTALL BOOTSTRAP
-// var lib = require('bower-files')({
-//   "overrides":{
-//     "bootstrap" : {
-//       "main": [
-//         "less/bootstrap.less",
-//         "dist/css/bootstrap.css",
-//         "dist/js/bootstrap.js"
-//       ]
-//     }
-//   }
-// });
+var lib = require('bower-files')({
+  "overrides":{
+    "bootstrap" : {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+});
 
 //2 runs separately from the chain
 gulp.task('jshint', function(){
