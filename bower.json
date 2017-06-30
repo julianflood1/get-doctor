@@ -1,6 +1,6 @@
 {
-  "name": "Project",
-  "description": "This is a description",
+  "name": "GetDoctor",
+  "description": "This is a website to search for doctors",
   "main": "index.js",
   "license": "ISC",
   "homepage": "",
