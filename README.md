@@ -1,12 +1,41 @@
+# _Doctor Search_
+
+http://julianflood1.github.io/get-doctor
+
+#### _A doctor finder website made for Epicodus, June 30th 2017_
+
+#### By _**Julian Flood**_
+
+## Description
+
+_This is a website that I made utilizing an API key from a medical website. The purpose was to be able to enter a symptom and receive a list of doctors in the area that could help. _
+
+## Setup/Installation Requirements
+
 # Setup Instructions
-* Clone the repo
-* Open package.json, change 'name' and any other applicable fields to your new projects information.
-* Repeat the previous step for bower.json
-* If using any CSS frameworks, in index.html uncomment the vendor.min.css link in the head
-* If you plan to use bootstrap, in gulpfile.js, uncomment the labeled section on line 16, and comment out the previous line 15
+* Clone the repository
+* Make account at https://betterdoctor.com/
+* Request API key
+* Put API key in code
 * Use npm install, and bower install to install necessary dependencies
 * Use gulp build to build js and css files to be included
 * Use gulp serve to launch the development server
 
-# Additional Notes
-* In the JS folder there is an example module exported, and the -interface file using it. Feel free to use these as a template, but should be replaced and the files renamed.
+
+## Known Bugs
+
+_No known bugs._
+
+## Support and contact details
+
+_Email me at julianflood@gmail.com if you run into any issues_
+
+## Technologies Used
+
+_HTML, CSS, JavaScript_
+
+### License
+
+*MIT*
+
+Copyright (c) 2017 **_Julian Flood_**
