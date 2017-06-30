@@ -1,7 +1,5 @@
 # _Doctor Search_
 
-http://julianflood1.github.io/get-doctor
-
 #### _A doctor finder website made for Epicodus, June 30th 2017_
 
 #### By _**Julian Flood**_
